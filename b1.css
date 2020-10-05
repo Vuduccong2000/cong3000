@@ -1,0 +1,40 @@
+.border {
+    width: 1150px;
+    height: 800px;
+}
+.header {
+    text-align: center;
+}
+.content {
+    text-align: center;
+}
+.menu {
+    font-family: sans-serif;
+    display: flex;
+    background-color: orange;
+}
+.menu .col {
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+.menu .col a {
+    text-decoration: none;
+    color: aliceblue;
+    display: block;
+}
+.menu .col a:hover {
+    background-color: darkgray;
+}
+.menu .row {
+    width: 500px;
+    height: 40px;
+    line-height: 40px;
+    text-align: right;
+    margin-right: 20px;
+}
+.menu .row a {
+    text-decoration: none;
+    color: aliceblue;
+}

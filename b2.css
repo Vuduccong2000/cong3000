@@ -1,0 +1,112 @@
+
+.new {
+    border-collapse: collapse;
+    height: 630px;
+    width: 800px;
+    margin: auto;
+    background-color: pink;
+    display: flex;
+}
+.new .logo {
+    width: 350px;
+    height: 630px;
+    border-collapse: collapse;
+    background-color: rgb(75, 59, 82);
+    margin-bottom: 50px;
+}
+.new .logo .image-1 {
+    display: flex;
+}
+.new .logo .image-1 .foot-dog {
+    height: 50px;
+    width: 50px;
+    margin-top: 100px;
+}
+.new .logo .image-1 .brand {
+    margin-top: 80px;
+    margin-right: 10px;
+
+}
+.new .logo .image-2 .dog {
+    height: auto;
+    width: 200px;
+    margin-top: 249px;
+    margin-left: 20px;
+}
+
+.new .form {
+    padding: 20px;
+}
+.new .form .row {
+    display: flex;
+}
+.new .form .row .col-1 {
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+.new .form .content {
+    justify-content: space-between;
+}
+.new .form .row .col-1 input{
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+}
+.new .form .row .col-2 {
+    font-size: 20px;
+    margin-right: 90px;
+    margin-top: 40px;
+}
+.button {
+    display: flex;
+}
+.button-1 {
+    border: 1px solid white;
+    background: white;
+    padding: 10px;
+    font-size:16px;
+    height: 40px;
+    width: 105px;
+    border-radius: 5px;
+}
+.button-1.weight {
+    flex: 1;
+    border: 1px solid white;
+    background: white;
+    padding: 10px;
+    font-size:16px;
+    height: 40px;
+    border-radius: 5px;
+}
+.last .back {
+    display: flex;
+    background-color: white;
+    height: 73px;
+    width: 514px;
+    margin-top: 20px;
+    justify-content: space-between;
+    background:white;
+    padding: 10px;
+}
+.last .back .end {
+    background: white;
+    color: black;
+    border-radius: 30px;
+    padding: 10px 40px;
+    height: 40px;
+    margin-top: 10px;
+}
+.button-1.weight:active {
+    background-color: pink;
+}
+.button-1:active {
+    background-color: pink;
+}
+.new .form .row .col-2 .image {
+    display: none;
+}
+.last .back .end:active {
+    background-color: darkslategray;
+}
+
